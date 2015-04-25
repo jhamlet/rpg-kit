@@ -1,0 +1,41 @@
+{
+    "name": "rpg-kit",
+    "fullname": "RPG Kit",
+    "description": "A RPG JavaScript Library",
+    "version": "0.1.0",
+    "keywords": [],
+    "main": "./lib/index.js",
+    "dependencies": {
+        "underscore":   "1.x",
+        "protean":      "0.x"
+    },
+    "devDependencies": {
+        "mocha":        "2.x",
+        "should":       "6.x",
+        "del":          "*",
+        "gulp":         "3.x",
+        "gulp-util":    "*",
+        "gulp-ejs":     "*",
+        "gulp-concat":  "*",
+        "gulp-jsdoc":   "*"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/gulp",
+        "clobber": "./node_modules/.bin/gulp clobber",
+        "test": "./node_modules/.bin/mocha -R spec test/test-*.js"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jhamlet/rpg-kit/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jhamlet/rpg-kit.git"
+    },
+    "bugs": {
+        "url": "http://github.com/jhamlet/rpg-kit/issues"
+    },
+    "private": true
+}
