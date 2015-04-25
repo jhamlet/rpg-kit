@@ -1,7 +1,7 @@
-Project Template
-================
+RPG Kit
+=======
 
-> Lorem ipsum dolar sit amet...
+> A RPG JavaScript Library
 
 
 
@@ -15,7 +15,7 @@ Installation
 ------------
 
 ~~~
-% npm install project-tmpl
+% npm install rpg-kit
 ~~~
 
 
@@ -31,7 +31,7 @@ Documentation
 Dependencies
 ------------
 
-These are installed when **project-tmpl** is installed.
+These are installed when **rpg-kit** is installed.
 
 ~~~
 underscore: 1.x
@@ -58,7 +58,7 @@ gulp-jsdoc:  *
 Report an Issue
 ---------------
 
-* [Bugs](http://github.com/jhamlet/project-tmpl/issues)
+* [Bugs](http://github.com/jhamlet/rpg-kit/issues)
 * Contact the author: <jerry@hamletink.com>
 
 
@@ -66,7 +66,7 @@ Report an Issue
 License
 -------
 
-> Copyright (c) 2014 Jerry Hamlet <jerry@hamletink.com>
+> Copyright (c) 2015 Jerry Hamlet <jerry@hamletink.com>
 > 
 > Permission is hereby granted, free of charge, to any person
 > obtaining a copy of this software and associated documentation
