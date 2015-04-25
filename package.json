@@ -6,8 +6,10 @@
     "keywords": [],
     "main": "./lib/index.js",
     "dependencies": {
-        "underscore":   "1.x",
-        "protean":      "0.x"
+        "underscore":       "1.x",
+        "protean":          "0.x",
+        "protean-subject":  "0.x",
+        "rx":               "2.x"
     },
     "devDependencies": {
         "mocha":        "2.x",
