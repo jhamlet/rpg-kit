@@ -24,7 +24,7 @@
     "scripts": {
         "build": "./node_modules/.bin/gulp",
         "clobber": "./node_modules/.bin/gulp clobber",
-        "test": "./node_modules/.bin/mocha -R spec test/test-*.js"
+        "test": "./node_modules/.bin/mocha -R spec test/**/*.js"
     },
     "licenses": [
         {
