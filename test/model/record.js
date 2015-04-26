@@ -1,6 +1,6 @@
 /*globals describe, it*/
 var Record = require('../../lib/model/record'),
-    Rx = require('rx');
+    Rx = require('../../lib/util/rx');
 
 require('should');
 
