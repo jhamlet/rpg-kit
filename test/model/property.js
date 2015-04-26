@@ -82,6 +82,20 @@ describe('Property', function () {
         });
     });
 
+    describe('#dispose()', function () {
+        var p = new Property(0, _.noop);
+
+        it('should dispose of underlying subject, and remove validation function', function () {
+            var s = p._subject;
+
+            p.dispose();
+            s.isDisposed.should.be.true;
+            (s.observers === null).should.be.true;
+            (s.value === null).should.be.true;
+            (p.validator === null).should.be.true;
+        });
+    });
+
     describe('#subscribe(observerOrOnNext, [onError], [onCompleted])', function () {
         var p = new Property(null);
 
